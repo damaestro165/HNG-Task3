@@ -1,6 +1,7 @@
 import React from 'react';
 import Cta from '../components/Cta';
 import Inspiration from '../components/Inspiration';
+import Nfts from '../components/Nfts';
 
 const Home = () => {
   return (

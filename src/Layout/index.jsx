@@ -9,7 +9,7 @@ const Layout = () => {
       <div>
         <Navbar />
       </div>
-      <div>
+      <div className=' mt-[5rem] md:mt-[8rem] md:px-0 lg:mt-[10rem]'>
         <Outlet />
       </div>
       <footer>
