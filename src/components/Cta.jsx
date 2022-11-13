@@ -10,7 +10,7 @@ import Opensea from '../assets/Frame.svg';
 const Cta = () => {
   return (
     <main>
-      <div className=' mx-5 mt-8 flex flex-col justify-between pt-10 md:my-[4rem] md:mx-10 md:flex-row md:items-center md:pt-0 lg:mx-[4rem] '>
+      <div className=' mx-5 mt-8 mb-6 flex flex-col justify-between pt-10 md:my-[4rem] md:mx-10 md:flex-row md:items-center md:pt-0 lg:mx-[4rem] '>
         <div className='flex flex-col gap-5 md:w-4/5 lg:w-1/2 lg:gap-[48px]'>
           <h1 className='text-[1.75rem] font-normal text-[#434343] lg:text-[46px] lg:leading-[3rem]'>
             Rent a <span className='font-bold text-[#A02279]'>Place</span> away
