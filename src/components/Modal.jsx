@@ -27,14 +27,16 @@ export default function Modal({ showModal, setShowModal }) {
                   <button className='flex w-full items-center justify-between rounded-2xl border-2 py-3 px-5 hover:bg-[#F8F9FA]'>
                     <div className='flex items-center'>
                       <img src={Meta} className='mr-3' />
-                      <p className='text-xl font-bold'>Metamask</p>
+                      <p className='font-bold md:text-xl '>Metamask</p>
                     </div>
                     <img src={Open} />
                   </button>
                   <button className='flex w-full items-center justify-between rounded-2xl border-2 py-3 px-5 hover:bg-[#F8F9FA]'>
-                    <div className='flex items-center'>
+                    <div className='flex items-center text-sm'>
                       <img src={Wallet} className='mr-3' />
-                      <p className='text-xl font-bold'>WalletConnect</p>
+                      <p className='text-sm font-bold md:text-xl'>
+                        WalletConnect
+                      </p>
                     </div>
                     <img src={Open} />
                   </button>
