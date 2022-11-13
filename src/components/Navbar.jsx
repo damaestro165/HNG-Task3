@@ -12,10 +12,10 @@ const Navbar = () => {
     <div className='fixed top-0 z-50 w-full bg-white p-3 '>
       <div className='flex items-center justify-between md:hidden'>
         <div className=' w-2/4'>
-          <img className='m-2 h-5 w-[6rem]' src={Logo} alt='logo' />
+          <img className='m-2 h-5 ' src={Logo} alt='logo' />
         </div>
         <button
-          className='m-2 rounded-[10px] bg-[#A02279] p-4 text-xs text-white'
+          className='m-2 rounded-md bg-[#A02279] py-2 px-4 text-xs text-white'
           onClick={() => setShowModal(true)}
         >
           Connect Wallet

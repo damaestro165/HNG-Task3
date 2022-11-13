@@ -35,8 +35,8 @@ const NftCard = ({ image, id }) => {
               y2='0.100006'
               gradientUnits='userSpaceOnUse'
             >
-              <stop stop-color='#1D0E3D' />
-              <stop offset='1' stop-color='#0F051D' />
+              <stop stopColor='#1D0E3D' />
+              <stop offset='1' stopColor='#0F051D' />
             </linearGradient>
           </defs>
         </svg>

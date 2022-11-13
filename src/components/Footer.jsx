@@ -17,14 +17,14 @@ const Footer = () => {
             <img src={Twitter} alt='twitter social' />
           </div>
           <div className='flex gap-2'>
-            <img src={CopyRight} className='h-4 w-4' />
+            <img src={CopyRight} className='h-4 w-4' alt='copyright' />
             <p className='text-sm'>2022 Metabnb</p>
           </div>
         </div>
       </div>
 
       <div>
-        <h4 className='mb-6 font-bold'>Community</h4>
+        <h3 className='mb-6 font-bold'>Community</h3>
         <ul>
           <li className='my-2 text-sm'>NFT</li>
           <li className='my-2 text-sm'>Tokens</li>
@@ -33,7 +33,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <h4 className='mb-6 font-bold'>Places</h4>
+        <h3 className='mb-6 font-bold'>Places</h3>
         <ul>
           <li className='my-2 text-sm'>Castle</li>
           <li className='my-2 text-sm'>Farms</li>
@@ -42,7 +42,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <h4 className='mb-6 font-bold'>About us</h4>
+        <h3 className='mb-6 font-bold'>About us</h3>
         <ul>
           <li className='my-2 text-sm'>Road map</li>
           <li className='my-2 text-sm'>Creators</li>

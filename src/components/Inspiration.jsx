@@ -11,7 +11,9 @@ const Inspiration = () => {
       </h2>
       <div className='mt-2 grid gap-4 md:grid-cols-2 lg:grid-cols-4 tall:grid-cols-3'>
         {miniData.map((item) => (
-          <NftCard image={item.img} id={item.id} alt='Nfts' />
+          <div key={item.id}>
+            <NftCard image={item.img} alt='Nfts' />
+          </div>
         ))}
       </div>
     </div>
