@@ -5,16 +5,16 @@ import ImageC from '../assets/imageC.png';
 import ImageD from '../assets/imageD.png';
 import Mbtoken from '../assets/mb.png';
 import Metamusk from '../assets/logo.svg';
-import Opensea from '../assets/frame.svg';
+import Opensea from '../assets/Frame.svg';
 
 const Cta = () => {
   return (
     <main>
-      <div className=' my-8 mx-5 flex flex-col justify-between md:my-[4rem] md:mx-[4rem] md:flex-row md:items-center '>
+      <div className=' mx-5 mt-8 flex flex-col justify-between pt-10 md:my-[4rem] md:mx-10 md:flex-row md:items-center md:pt-0 lg:mx-[4rem] '>
         <div className='flex flex-col gap-5 md:w-4/5 lg:w-1/2 lg:gap-[48px]'>
           <h1 className='text-[1.75rem] font-normal text-[#434343] lg:text-[46px] lg:leading-[3rem]'>
             Rent a <span className='font-bold text-[#A02279]'>Place</span> away
-            from <span className='font-bold text-[#A02279]'>Home</span> in the{' '}
+            from <span className='font-bold text-[#A02279]'>Home</span> in the
             <span className='font-bold text-[#A02279]'>Metaverse</span>
           </h1>
           <p className=' text-sm text-[#434343] md:text-lg lg:text-2xl'>
@@ -50,7 +50,7 @@ const Cta = () => {
           </div>
         </div>
       </div>
-      <div className='flex justify-evenly bg-[#A02279]'>
+      <div className='flex justify-evenly bg-[#A02279] p-2'>
         <img src={Mbtoken} className='w-[6rem] md:w-[150px] lg:w-[214.14px]' />
         <img src={Metamusk} className='w-[6rem] md:w-[150px] lg:w-[214.14px]' />
         <img src={Opensea} className='w-[6rem] md:w-[150px] lg:w-[214.14px]' />

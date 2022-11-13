@@ -66,7 +66,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className=' mx-5 hidden items-center justify-between py-5 px-10 md:flex'>
+      <div className=' mx-5 hidden items-center justify-between py-5 md:flex lg:px-10'>
         <div>
           <img src={Logo} alt='logo' className='md:w-[180px] lg:w-[200px]' />
         </div>
