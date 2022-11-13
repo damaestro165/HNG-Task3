@@ -11,6 +11,7 @@ const NftCard = ({ image, id }) => {
         <img
           src={image}
           className='w-[18rem] rounded-2xl object-cover lg:h-[249px] lg:w-[236px]'
+          alt='Nfts'
         />
         <svg
           className=' absolute top-3 right-5'
@@ -50,11 +51,11 @@ const NftCard = ({ image, id }) => {
           <p>available for 2weeks stay</p>
         </div>
         <div className='flex gap-2'>
-          <img src={Star} className='h-3 w-3' />
-          <img src={Star} className='h-3 w-3' />
-          <img src={Star} className='h-3 w-3' />
-          <img src={Star} className='h-3 w-3' />
-          <img src={Star} className='h-3 w-3' />
+          <img src={Star} className='h-3 w-3' alt='ratings' />
+          <img src={Star} className='h-3 w-3' alt='ratings' />
+          <img src={Star} className='h-3 w-3' alt='ratings' />
+          <img src={Star} className='h-3 w-3' alt='ratings' />
+          <img src={Star} className='h-3 w-3' alt='ratings' />
         </div>
       </div>
     </div>

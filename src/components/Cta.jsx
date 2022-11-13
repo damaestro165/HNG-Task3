@@ -36,24 +36,36 @@ const Cta = () => {
         <div className='mt-5  pl-5 lg:mt-0 '>
           <div className=' grid grid-cols-2 grid-rows-5 justify-items-center gap-4'>
             <div className='row-span-2 row-start-2'>
-              <img src={ImageA} />
+              <img src={ImageA} alt='nfts' />
             </div>
             <div className='row-span-2 row-start-4'>
-              <img src={ImageD} />
+              <img src={ImageD} alt='nfts' />
             </div>
             <div className='row-span-2'>
-              <img src={ImageC} />
+              <img src={ImageC} alt='nfts' />
             </div>
             <div className='row-span-2'>
-              <img src={ImageB} />
+              <img src={ImageB} alt='nfts' />
             </div>
           </div>
         </div>
       </div>
       <div className='flex justify-evenly bg-[#A02279] p-2'>
-        <img src={Mbtoken} className='w-[6rem] md:w-[150px] lg:w-[214.14px]' />
-        <img src={Metamusk} className='w-[6rem] md:w-[150px] lg:w-[214.14px]' />
-        <img src={Opensea} className='w-[6rem] md:w-[150px] lg:w-[214.14px]' />
+        <img
+          src={Mbtoken}
+          className='w-[6rem] md:w-[150px] lg:w-[214.14px]'
+          alt='nfts'
+        />
+        <img
+          src={Metamusk}
+          className='w-[6rem] md:w-[150px] lg:w-[214.14px]'
+          alt='nfts'
+        />
+        <img
+          src={Opensea}
+          className='w-[6rem] md:w-[150px] lg:w-[214.14px]'
+          alt='nfts'
+        />
       </div>
     </main>
   );

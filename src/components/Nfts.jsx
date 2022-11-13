@@ -23,14 +23,17 @@ const Nfts = () => {
         <div className='relative '>
           <img
             src={HouseA}
+            alt='Nfts'
             className='absolute -right-6 -top-10 w-[10rem] rotate-[17.76deg] rounded-[10px] md:right-0 md:top-[8rem] md:w-[15rem] lg:-top-[14rem] lg:w-[350px]'
           />
           <img
             src={HouseB}
+            alt='Nfts'
             className=' absolute right-[5rem] top-[3rem] w-[10rem] rotate-[-26.02deg] rounded-[10px] md:left-0 md:top-60 md:w-[15rem] lg:-top-10 lg:w-[350px]'
           />
           <img
             src={HouseC}
+            alt='Nfts'
             className=' absolute -right-[3rem] top-[5rem] w-[10rem] rotate-[-8.76deg] rounded-[10px] md:right-0 md:top-80 md:w-[15rem]  lg:top-5 lg:-right-5 lg:w-[350px]'
           />
         </div>

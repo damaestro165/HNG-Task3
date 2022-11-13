@@ -9,12 +9,12 @@ const Footer = () => {
   return (
     <footer className='grid gap-10 bg-[#1D1D1E] p-5 text-white md:grid-cols-2 md:p-[4rem] lg:grid-cols-4 lg:flex-row '>
       <div className='flex flex-col gap-10'>
-        <img src={FooterLogo} className='w-[233px]' />
+        <img src={FooterLogo} className='w-[233px]' alt='Metabnb Logo' />
         <div className='mt-10 flex flex-col gap-10'>
           <div className='flex gap-10'>
-            <img src={Facebook} />
-            <img src={Instagram} />
-            <img src={Twitter} />
+            <img src={Facebook} alt='facebook social' />
+            <img src={Instagram} alt='instagram social' />
+            <img src={Twitter} alt='twitter social' />
           </div>
           <div className='flex gap-2'>
             <img src={CopyRight} className='h-4 w-4' />
