@@ -15,7 +15,7 @@ const Navbar = () => {
           <img className='m-2 h-5 w-[6rem]' src={Logo} alt='logo' />
         </div>
         <button
-          className='m-2 rounded-[10px] bg-[#A02279] p-2 text-xs text-white'
+          className='m-2 rounded-[10px] bg-[#A02279] p-4 text-xs text-white'
           onClick={() => setShowModal(true)}
         >
           Connect Wallet

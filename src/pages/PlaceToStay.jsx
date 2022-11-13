@@ -5,7 +5,7 @@ import Setting from '../assets/setting.png';
 
 const PlaceToStay = () => {
   return (
-    <div className='m-5'>
+    <div className='mx-5 mt-[7rem] md:m-5'>
       <div className='flex items-center justify-center text-[#434343] md:justify-start md:px-[3rem]'>
         <div className='mr-3 md:hidden'>
           <select
