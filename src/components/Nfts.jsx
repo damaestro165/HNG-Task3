@@ -1,11 +1,9 @@
 import React from 'react';
-import HouseA from '../assets/houseA.png';
-import HouseB from '../assets/houseB.png';
-import HouseC from '../assets/houseC.png';
+import ThreeImages from '../assets/ThreeImages.png';
 
 const Nfts = () => {
   return (
-    <div className='mt-5 flex h-[40rem] flex-col gap-[2rem] bg-[#A02279] p-2 md:flex-row md:justify-center md:p-8 lg:h-[774px] lg:items-center lg:p-[5rem]'>
+    <div className='mt-5 flex h-[40rem] flex-col bg-[#A02279] p-2 md:flex-row md:justify-center md:gap-[2rem] md:p-8 lg:h-[774px] lg:items-center lg:p-[5rem]'>
       <div className='mb-10 flex flex-col gap-7 p-5 text-center text-white md:mb-0 md:w-2/5 md:justify-center md:text-left lg:justify-between'>
         <h2 className='text-3xl font-bold md:text-2xl lg:text-5xl'>
           Metabnb NFTs
@@ -19,23 +17,9 @@ const Nfts = () => {
           Learn more
         </button>
       </div>
-      <div className=' w-4/5 md:mx-[2rem] md:w-3/5'>
-        <div className='relative '>
-          <img
-            src={HouseA}
-            alt='Nfts'
-            className='absolute -right-6 -top-10 w-[10rem] rotate-[17.76deg] rounded-[10px] md:right-0 md:top-[8rem] md:w-[15rem] lg:-top-[14rem] lg:w-[350px]'
-          />
-          <img
-            src={HouseB}
-            alt='Nfts'
-            className=' absolute right-[5rem] top-[3rem] w-[10rem] rotate-[-26.02deg] rounded-[10px] md:left-0 md:top-60 md:w-[15rem] lg:-top-10 lg:w-[350px]'
-          />
-          <img
-            src={HouseC}
-            alt='Nfts'
-            className=' absolute -right-[3rem] top-[5rem] w-[10rem] rotate-[-8.76deg] rounded-[10px] md:right-0 md:top-80 md:w-[15rem]  lg:top-5 lg:-right-5 lg:w-[350px]'
-          />
+      <div className=' w-4/5 self-center md:mx-[2rem] md:w-3/5'>
+        <div className=''>
+          <img src={ThreeImages} alt='Nfts' />
         </div>
       </div>
     </div>

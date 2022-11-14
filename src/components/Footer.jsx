@@ -4,6 +4,7 @@ import Twitter from '../assets/twitter.png';
 import Instagram from '../assets/instagram.png';
 import Facebook from '../assets/facebook.png';
 import CopyRight from '../assets/copyright.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -26,28 +27,52 @@ const Footer = () => {
       <div>
         <h3 className='mb-6 font-bold'>Community</h3>
         <ul>
-          <li className='my-2 text-sm'>NFT</li>
-          <li className='my-2 text-sm'>Tokens</li>
-          <li className='my-2 text-sm'>Landlords</li>
-          <li className='my-2 text-sm'>Discord</li>
+          <li className='my-2 text-sm'>
+            <Link to='#'>NFT </Link>
+          </li>
+          <li className='my-2 text-sm'>
+            <Link to='#'>Tokens </Link>
+          </li>
+          <li className='my-2 text-sm'>
+            <Link to='#'>Landlords </Link>
+          </li>
+          <li className='my-2 text-sm'>
+            <Link to='#'>Discord </Link>
+          </li>
         </ul>
       </div>
       <div>
         <h3 className='mb-6 font-bold'>Places</h3>
         <ul>
-          <li className='my-2 text-sm'>Castle</li>
-          <li className='my-2 text-sm'>Farms</li>
-          <li className='my-2 text-sm'>Beach</li>
-          <li className='my-2 text-sm'>Learn more</li>
+          <li className='my-2 text-sm'>
+            <Link to='#'>Castle </Link>
+          </li>
+          <li className='my-2 text-sm'>
+            <Link to='#'>Farms </Link>
+          </li>
+          <li className='my-2 text-sm'>
+            <Link to='#'>Beach </Link>
+          </li>
+          <li className='my-2 text-sm'>
+            <Link to='#'>Learn more </Link>
+          </li>
         </ul>
       </div>
       <div>
         <h3 className='mb-6 font-bold'>About us</h3>
         <ul>
-          <li className='my-2 text-sm'>Road map</li>
-          <li className='my-2 text-sm'>Creators</li>
-          <li className='my-2 text-sm'>Career</li>
-          <li className='my-2 text-sm'>Contact us</li>
+          <li className='my-2 text-sm'>
+            <Link to='#'>Road map </Link>
+          </li>
+          <li className='my-2 text-sm'>
+            <Link to='#'>Creators </Link>
+          </li>
+          <li className='my-2 text-sm'>
+            <Link to='#'>Career </Link>
+          </li>
+          <li className='my-2 text-sm'>
+            <Link to='#'>Contact us </Link>
+          </li>
         </ul>
       </div>
     </footer>
