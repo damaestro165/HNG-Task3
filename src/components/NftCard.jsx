@@ -5,7 +5,7 @@ const NftCard = ({ image, id }) => {
   return (
     <div
       key={id}
-      className='flex flex-col rounded-2xl border-2 border-[#D7D7D7] p-5 md:justify-evenly lg:w-[270px] lg:gap-2 lg:px-[.65rem]'
+      className='flex flex-col rounded-2xl border-2 border-[#D7D7D7] p-5 md:justify-evenly lg:w-auto lg:gap-2 lg:px-[.65rem]'
     >
       <div className='relative self-center '>
         <img

@@ -29,7 +29,7 @@ const PlaceToStay = () => {
           </span>
         </button>
       </div>
-      <div className='mt-2 grid gap-5 p-2 md:grid-cols-2 md:p-[3rem] lg:grid-cols-4 tall:grid-cols-3'>
+      <div className='mt-2 grid gap-5 p-2 md:grid-cols-2 md:p-[3rem] lg:grid-cols-4 lg:gap-2 '>
         {data.map((item) => (
           <div key={item.id}>
             <NftCard image={item.img} id={item.id} alt='Nfts' />
